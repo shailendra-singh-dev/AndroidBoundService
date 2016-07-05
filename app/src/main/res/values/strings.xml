@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BoundServiceSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="service_started">Service Started</string>
+    <string name="service_label">Service Info</string>
+    <string name="local_service_label">Service Info</string>
+    <string name="hello_world">Hello World</string>
+    <string name="performBackgroundOperation">Generate Random Number</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+    <Button
+        android:id="@+id/btnBind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind" />
+    <Button
+        android:id="@+id/btnUnbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UnBind" />
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Status"/>
+
+    <TextView
+        android:id="@+id/textIntValue"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Int Value"/>
+
+    <TextView
+        android:id="@+id/textStrValue"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="String value"/>
+
+    <Button
+        android:id="@+id/btnUpby1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increment By 1" />
+
+    <Button
+        android:id="@+id/btnUpby10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increment By 10" />
+</LinearLayout>
